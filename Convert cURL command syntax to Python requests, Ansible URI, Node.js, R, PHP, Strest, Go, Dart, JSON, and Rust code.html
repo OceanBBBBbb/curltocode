@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)https://curl.trillworks.com/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="在线curl转python代码/curl转Java代码/curl转Node.js/curl转R/curl转PHP/curl转Strest/curl转Go/curl转Dart/curl转JSON/curl转Rust">
+    <meta name="author" content="Nick Carneiro">
+
+    <title>cUrl在线转代码工具</title>
+    <link href="files/app.css" rel="stylesheet">
+  <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script></head>
+  <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="nav nav-pills pull-right">
+          <li><a href="https://github.com/NickCarneiro/curlconverter">基于curlconverter</a></li>
+          <li style="padding-top: 8px; padding-left: 10px;"><iframe src="files/github-btn.html" frameborder="0" scrolling="0" width="170px" height="30px"></iframe></li>
+        </ul>
+        <h3 class="text-muted hidden-xs">Convert curl syntax to Python, Ansible URI, Node.js, R, PHP, Strest, Go, Dart, JSON, Rust</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <h2>curl command</h2>
+        <textarea id="curl-code" class="code" placeholder="Paste a curl command here"></textarea>
+
+      </div>
+      <div class="col-sm-6">
+        <h2 id="generated-code-title">Python requests</h2>
+        <div style="display: none;" id="issue-promo">If your syntax is correct, create an
+          <a href="https://github.com/NickCarneiro/curlconverter/issues/new" target="_blank">issue</a>.
+        </div>
+        <textarea id="generated-code" class="code"></textarea>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 button-container">
+        <label for="language">
+          Language
+        </label>
+        <select class="form-control" id="language">
+          <option value="ansible">Ansible</option>
+          <option value="dart">Dart</option>
+          <option value="go">Go</option>
+          <option value="json">JSON</option>
+          <option value="node">Node.js</option>
+          <option value="php">PHP</option>
+          <option value="python" selected="selected">Python</option>
+          <option value="r">R</option>
+          <option value="rust">Rust</option>
+          <option value="strest">Strest</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row extra-padding">
+      <div class="col-lg-4">
+        <h3>Get a curl command from Chrome</h3>
+        <ul>
+          <li>1) Open the network tab in Chrome DevTools (Cmd + Opt + I)</li>
+          <li>2) Control-click a request and navigate to "Copy as cURL".</li>
+          <li>3) Paste it in the curl command box.</li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <img class="screenshot" src="files/newscreenshot.png" alt="screenshot of chrome devtools">
+      </div>
+
+    <div class="row border-top extra-padding">
+      <div class="col-sm-4">
+        <h3>声明</h3>
+        <div class="well larger-text">
+          <p>网站不会收集你的任何信息,整个转换过程在你本地浏览器代码中执行完成,如果你还是觉得不安全,可以下载本源码<a href="https://github.com/sponsors/NickCarneiro">Github</a>.
+            感谢star🙏
+          </p>
+        </div>
+      </div>
+  </div>
+
+</body></html>
